@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex box</title>
+    <style>
+      body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .container {
+        display: flex;
+        width: 887px;
+        height: 661px;
+        border-radius: 15px;
+        background: white;
+        box-shadow: 0px 24px 28px 9px grey;
+      }
+      .product-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+      }
+      .product-content h3 {
+        color: #fff;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+        border-radius: 20px;
+        background-color: black;
+        gap: 10px;
+        display: inline-flex;
+        padding: 4px 8px;
+      }
+      .product-content h2 {
+        color: var(--191847, #191847);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .sale {
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-card">
+        <div class="product-image"><img src="./image/image1.png" alt="" /></div>
+        <div class="product-content">
+          <h3>Free shipping</h3>
+          <h2>Razer Kraken Kitty Edt Gaming Headset Quartz</h2>
+          <span class="sale">1 599,000</span>
+          <span class="price">799,000</span>
+          <h6>The offer is valid until April 3 or as long as stock lasts!</h6>
+          <button>Add To Card</button>
+          <button>Add To Card</button>
+          <button>Add to wishlist</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

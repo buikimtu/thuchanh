@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .content {
+        top: 216px;
+        left: 18px;
+        gap: 56px;
+        display: flex;
+        justify-content: space-between;
+      }
+      a {
+        text-decoration: none;
+        box-sizing: 8px;
+        color: black;
+      }
+      .box {
+        display: flex;
+        gap: 64px;
+      }
+      .left {
+        display: flex;
+        left: 0;
+      }
+      ul li {
+        list-style-type: none;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px;
+      }
+      ul {
+        display: flex;
+        gap: 8px;
+      }
+      .layout {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        /* background-color: #e5e7f0; */
+        padding: 60px;
+        border-radius: 26px;
+        background: #eff0f1;
+        position: relative;
+      }
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #fff;
+        padding: 24px;
+        border-radius: 32px;
+      }
+      .botton {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+      }
+      .content h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-family: Poppins;
+      }
+      .left {
+        display: flex;
+        align-items: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .all {
+        padding: 200px;
+        display: inline-flex;
+        flex-direction: column;
+        background-color: #d8dae2;
+        position: relative;
+        z-index: -99;
+      }
+      .cir1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+      .cir2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translate(50%, 50%);
+        z-index: -1;
+      }
+      body {
+        width: 1200px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <div class="layout">
+        <div class="cir1"><img src="img/Ellipse 2.png" alt="" /></div>
+        <div class="cir2"><img src="img/Ellipse 2.png" alt="" /></div>
+
+        <h1>Popular Collections</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="">Profile</a></li>
+            <li><a href="">New York</a></li>
+            <li><a href="">Relaxing</a></li>
+            <li><a href="">Person</a></li>
+            <li><a href="">Fashion</a></li>
+          </ul>
+        </nav>
+        <div class="box">
+          <div class="box1">
+            <img src="img/Rectangle 1.png" alt="" />
+            <div class="botton">
+              <img src="img/Rectangle 2.png" alt="" />
+              <img src="img/Rectangle 3.png" alt="" />
+              <img src="img/Rectangle 4.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>People</h3>
+              <div class="left">
+                <img src="img/Frame.png" alt="" />
+                <p>144</p>
+              </div>
+            </div>
+          </div>
+          <div class="box1">
+            <img src="img/Rectangle 1.png" alt="" />
+            <div class="botton">
+              <img src="img/Rectangle 2.png" alt="" />
+              <img src="img/Rectangle 3.png" alt="" />
+              <img src="img/Rectangle 4.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>People</h3>
+              <div class="left">
+                <img src="img/Frame.png" alt="" />
+                <p>144</p>
+              </div>
+            </div>
+          </div>
+          <div class="box1">
+            <img src="img/Rectangle 1.png" alt="" />
+            <div class="botton">
+              <img src="img/Rectangle 2.png" alt="" />
+              <img src="img/Rectangle 3.png" alt="" />
+              <img src="img/Rectangle 4.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>People</h3>
+              <div class="left">
+                <img src="img/Frame.png" alt="" />
+                <p>144</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

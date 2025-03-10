@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        text-align: center;
+        margin: 100px auto 0;
+      }
+      .box::before {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: blue;
+        position: absolute;
+        top: -50%;
+        left: 0;
+      }
+      .box::after {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p>Hoàng anh</p>
+    </div>
+  </body>
+</html>
